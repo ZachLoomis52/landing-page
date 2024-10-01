@@ -207,3 +207,13 @@ a{
 .txt3{
     color: white;
 }
+
+/* Footer of landing page */
+
+.container9{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
