@@ -1,43 +1,50 @@
 body{
     margin: 0;
     min-height: 100vh;
-    min-width: none;
+    width: 100%;
     display: flex;
     flex-direction: column;
 }
 
 .body1{
     background-color: #1F2937;
-    max-height: 250px;
+    max-height: 200px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
-    padding: 10px;  
+    padding: 30px;  
 }
 
 .logo{
     font: 20px;
-    font-weight: bold;
+    font-weight: 900;
     color: white;
-    margin-top: 0;
-    padding-bottom: 100px;
+    margin-top: -15px;
+    padding-bottom: 75px;
 }
-
-.content{
-  padding-bottom: 0px;
-}
-
 
 .container{
    display: flex;
    flex-direction: column;
-   justify-content: space-between;
+   align-content: space-between;
    align-items: flex-start;
-   padding-top: 0;
+   margin-left: 300px;
+   max-height: 225px;
+   padding: 0;  
 }
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    max-height: 225px;
+    padding: 0;
+    margin-right: 300px;
+ }
 
 h2{
     margin: 5px;
@@ -45,20 +52,13 @@ h2{
 }
 p{
     margin: 5px;
+    padding: 0;
     color: grey;
 }
 
-.container2{
-   display: flex;
-   flex-direction: column;
-   justify-content: space-between;
-   align-items: flex-end;
-   padding-top: 0;
-}
-
 ul{
-    padding-bottom: 100px;
-    margin: 0;
+    padding-bottom: 75px;
+    margin-top: -15px;
 }
 
 a{
@@ -70,12 +70,79 @@ a{
 
 button{
     max-width: 65px;
-    margin-top: 10px;
-    
+    margin-top: 10px; 
+    background-color: #3882f6;
 }
 
-img{
-    height: 125px;
+.image1{
+    height: 150px;
+    width: auto;
     padding: 0;
+    margin-top: -20px;
+}
+
+/* Section 2 of landing page */
+
+.body2{
+    max-height: 200px;
+    margin-top: -10px;
+    margin-left: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    display: flex;
+    font-weight: bolder;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    color: #1F2937;
+    margin-top: 5px;
+    margin-left: 60px;
+    padding: 0;
+}
+.container3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container5{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container6{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.image2{
+    display: flex;
+    height: 100px;
+    width: auto;
+    padding: 50px;
     margin: 0;
+}
+
+.txt{
+    color: black;
+    margin-top: -20px;
+    padding: 0;
 }
