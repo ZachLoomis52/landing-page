@@ -115,7 +115,7 @@ a{
 
 .body3{
     background-color: #E5E7EB;
-    min-height: 200px;
+    min-height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -129,7 +129,7 @@ a{
 }
 
 .txt1{
-    font-size: 30px;
+    font-size: 50px;
     font-style: italic;
 }
 
@@ -137,7 +137,7 @@ a{
     color: #1F2937;
     font-weight: bold;
     margin-left: auto;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 /* Section 4 of landing page */
@@ -146,7 +146,7 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 200px;
+    min-height: 300px;
     width: 100%;
 }
 
@@ -156,8 +156,8 @@ a{
     align-items: center;
     background-color: #3882f6;
     border-radius: 6px;
-    min-height: 100px;
-    width: 600px;
+    min-height: 170px;
+    width: 1200px;
     padding-left: 100px;
     padding-right: 100px;
 }
@@ -165,10 +165,15 @@ a{
 .button2{
     padding: 5px;
     border-radius: 6px;
+    font-size: 15px;
+    font-weight: bold;
+    height: 50px;
+    width: 100px;
 }
 
 .txt3{
     color: white;
+    font-size: 30px;
 }
 
 /* Footer of landing page */
@@ -178,7 +183,6 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex: 1;
-    max-height: 75px;
+    min-height: 100px;
     width: 100%;
 }
